@@ -36,8 +36,9 @@ public class tax_c {
         System.out.println("A 10% tip would be: " + tenp);
         //10% Tip (Subtotal * .10%)
         float twentyp = (float) (subtotal * .20);
-        System.out.println("A 10% tip would be: " + twentyp);
+        System.out.println("A 20% tip would be: " + twentyp);
         // 20% Tip (Subtotal * .20%)
+
 
         // Total with 10%
         float tentotal = (float) (tenp + subtotal + tax);
@@ -47,7 +48,7 @@ public class tax_c {
 
         System.out.println("The total would be: " + tentotal);
         System.out.println("The total would be: " + twentlytotal);
-
+        // this is just a test to see if the code is owkring or not.
 
 
 
